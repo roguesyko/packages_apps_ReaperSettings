@@ -8,4 +8,5 @@
         android:key="system_animation"
         android:title="@string/system_animation_title"
         android:fragment="com.reaper.settings.fragments.AnimationControls" />
+
 </PreferenceScreen>
