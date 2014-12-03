@@ -19,13 +19,6 @@
     <!-- <PreferenceCategory
         android:title="@string/notification_panel_title">
 
-        <ListPreference
-            android:key="smart_pulldown"
-            android:title="@string/smart_pulldown_title"
-            android:entries="@array/smart_pulldown_entries"
-            android:entryValues="@array/smart_pulldown_values"
-            android:persistent="false" />
-
         <com.reaper.settings.preferences.SystemSettingSwitchPreference
             android:key="force_expanded_notifications"
             android:title="@string/notification_force_expand_title"
@@ -55,7 +48,14 @@
         android:entries="@array/quick_pulldown_entries"
         android:entryValues="@array/quick_pulldown_values"
         android:persistent="false" />
-        
+
+    <ListPreference
+        android:key="smart_pulldown"
+        android:title="@string/smart_pulldown_title"
+        android:entries="@array/smart_pulldown_entries"
+        android:entryValues="@array/smart_pulldown_values"
+        android:persistent="false" />
+
     </PreferenceCategory>	    
 
 </PreferenceScreen>
