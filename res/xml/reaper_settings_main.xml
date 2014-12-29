@@ -16,7 +16,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:title="@string/reaper_settings_title" >
-
+        
         <PreferenceScreen
             android:fragment="com.reaper.settings.fragments.DisplaySettings"
             android:key="reaper_display_settings"
