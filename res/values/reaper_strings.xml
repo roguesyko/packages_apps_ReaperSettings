@@ -171,5 +171,8 @@
     <string name="qs_rows_columns_6_title">6</string>
     <string name="qs_rows_columns_7_title">7</string>
     <string name="qs_rows_columns_8_title">8</string>
+        <!-- Wake when connected/disconnected -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn on screen when connecting or disconnecting charger</string>
     
 </resources>
