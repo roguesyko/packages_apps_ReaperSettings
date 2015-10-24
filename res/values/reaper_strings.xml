@@ -174,5 +174,9 @@
         <!-- Wake when connected/disconnected -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn on screen when connecting or disconnecting charger</string>
-    
+        <!-- Volume key cursor control -->
+    <string name="volbtn_cursor_control_title">Volume key cursor control</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
+    <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
+    <string name="volbtn_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>      
 </resources>
