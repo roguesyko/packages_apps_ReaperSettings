@@ -34,7 +34,13 @@
         android:summary="@string/vol_zen_summary"
         android:defaultValue="false"/>
 
-    <com.pure.settings.preferences.SystemSettingSwitchPreference
+    <com.reaper.settings.preferences.SystemSettingSwitchPreference
+        android:key="volume_wake_screen"
+        android:title="@string/volbtn_wake_device_title"
+        android:summary="@string/button_wake_summary"
+        android:defaultValue="false" />
+
+    <com.reaper.settings.preferences.SystemSettingSwitchPreference
         android:key="volbtn_music_controls"
         android:title="@string/volbtn_music_controls_title"
         android:summary="@string/volbtn_music_controls_summary"
