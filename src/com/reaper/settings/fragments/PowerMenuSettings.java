@@ -44,6 +44,7 @@ public class PowerMenuSettings extends SettingsPreferenceFragment {
     private SwitchPreference mPowerPref;
     private SwitchPreference mRebootPref;
     private SwitchPreference mScreenshotPref;
+    private SwitchPreference mScreenRecordPref;
     private SwitchPreference mTorchPref;
     private SwitchPreference mAirplanePref;
     private SwitchPreference mUsersPref;
@@ -83,6 +84,8 @@ public class PowerMenuSettings extends SettingsPreferenceFragment {
                 mRebootPref = (SwitchPreference) findPreference(GLOBAL_ACTION_KEY_REBOOT);
             } else if (action.equals(GLOBAL_ACTION_KEY_SCREENSHOT)) {
                 mScreenshotPref = (SwitchPreference) findPreference(GLOBAL_ACTION_KEY_SCREENSHOT);
+            } else if (action.equals(GLOBAL_ACTION_KEY_SCREENRECORD)) {
+                mScreenRecordPref = (SwitchPreference) findPreference(GLOBAL_ACTION_KEY_SCREENRECORD);
             } else if (action.equals(GLOBAL_ACTION_KEY_TORCH)) {
                 mTorchPref = (SwitchPreference) findPreference(GLOBAL_ACTION_KEY_TORCH);
             } else if (action.equals(GLOBAL_ACTION_KEY_AIRPLANE)) {
@@ -126,6 +129,10 @@ public class PowerMenuSettings extends SettingsPreferenceFragment {
 
         if (mScreenshotPref != null) {
             mScreenshotPref.setChecked(settingsArrayContains(GLOBAL_ACTION_KEY_SCREENSHOT));
+        }
+
+        if (mScreenRecordPref != null) {
+            mScreenRecordPref.setChecked(settingsArrayContains(GLOBAL_ACTION_KEY_SCREENRECORD));
         }
 
         if (mTorchPref != null) {
@@ -202,6 +209,10 @@ public class PowerMenuSettings extends SettingsPreferenceFragment {
         } else if (preference == mScreenshotPref) {
             value = mScreenshotPref.isChecked();
             updateUserConfig(value, GLOBAL_ACTION_KEY_SCREENSHOT);
+
+        } else if (preference == mScreenRecordPref) {
+            value = mScreenRecordPref.isChecked();
+            updateUserConfig(value, GLOBAL_ACTION_KEY_SCREENRECORD);
 
         } else if (preference == mTorchPref) {
             value = mTorchPref.isChecked();
