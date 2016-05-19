@@ -25,7 +25,21 @@
         android:title="@string/wake_when_plugged_or_unplugged_title"
         android:summary="@string/wake_when_plugged_or_unplugged_summary"
         android:defaultValue="false" />
+    </PreferenceCategory>    
 
-    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="leds"
+        android:title="@string/led_category" >
+
+        <PreferenceScreen
+            android:key="notification_light"
+            android:title="@string/notification_light_title"
+            android:fragment="com.reaper.settings.notificationlight.NotificationLightSettings" />
+
+        <PreferenceScreen
+            android:key="battery_light"
+            android:title="@string/battery_light_title"
+            android:fragment="com.reaper.settings.notificationlight.BatteryLightSettings" />
+    </PreferenceCategory>         
 
 </PreferenceScreen>

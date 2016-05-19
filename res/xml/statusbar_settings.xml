@@ -18,7 +18,7 @@
         
     <PreferenceScreen
         android:fragment="com.reaper.settings.fragments.BatterySettings"
-        android:key="pure_battery_settings"
+        android:key="battery_settings"
         android:title="@string/battery_settings_title"
         android:summary="@string/battery_settings_summary" />
      
