@@ -178,6 +178,9 @@
     <string name="power_menu_bug_report_title">Bug report</string>
     <string name="power_menu_sound_title">Sound panel</string>
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
+    
+    <!-- Recent Apps fragment -->
+    <string name="recent_settings_title">Recent apps</string>
 
     <!-- StatusBar fragment -->
     <string name="statusbar_settings_title">Statusbar</string>
