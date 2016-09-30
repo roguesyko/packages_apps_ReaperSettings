@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-        <!-- Battery settings -->
+    <!-- Battery settings -->
     <string name="battery_settings_title">Battery settings</string>
     <string name="battery_settings_summary">Change battery icon, percentage</string>
     <!-- Battery icon options -->
@@ -112,6 +112,9 @@
     <string name="notification_drawer_settings_title">Quick settings drawer</string>
     <string name="notification_panel_title">Quick settings panel</string>
     <string name="qs_panel_title">Quick settings panel</string>
+    <!-- Advanced data tile -->
+    <string name="qs_advanced_data_title">Advanced data tile</string>
+    <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
     <!-- QS brightness slider -->
     <string name="qs_brightness_slider_title">Brightness slider</string>
     <string name="qs_brightness_slider_summary">Show brightness slider on quick settings panel</string>

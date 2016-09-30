@@ -29,6 +29,12 @@
 
     <PreferenceCategory
         android:title="@string/qs_panel_title">
+
+    <com.reaper.settings.preferences.SecureSettingSwitchPreference
+        android:key="qs_data_advanced"
+        android:title="@string/qs_advanced_data_title"
+        android:summary="@string/qs_advanced_data_summary"
+        android:defaultValue="false" />
     
     <com.reaper.settings.preferences.SecureSettingSwitchPreference
         android:key="qs_show_brightness"
