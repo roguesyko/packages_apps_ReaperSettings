@@ -37,6 +37,11 @@
             android:key="reaper_powermenu_settings"
             android:title="@string/powermenu_settings_title"/>
 
+        <PreferenceScreen
+            android:fragment="com.reaper.settings.fragments.VolumeRockerSettings"
+            android:key="pure_volumerocker_settings"
+            android:title="@string/volumerocker_settings_title"/>
+
     </PreferenceCategory>
 
 </PreferenceScreen>
