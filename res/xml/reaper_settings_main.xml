@@ -27,6 +27,11 @@
             android:title="@string/lockscreen_settings_title"/>
 
         <PreferenceScreen
+            android:fragment="com.reaper.settings.fragments.NotificationDrawerSettings"
+            android:key="reaper_notification_drawer_settings"
+            android:title="@string/notification_drawer_settings_title"/>
+
+        <PreferenceScreen
             android:fragment="com.reaper.settings.fragments.StatusBarSettings"
             android:key="reaper_statusbar_settings"
             android:title="@string/statusbar_settings_title"/>

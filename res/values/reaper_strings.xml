@@ -21,6 +21,9 @@
 
     <!-- Lockscreen Fragment -->
     <string name="lockscreen_settings_title">Lockscreen</string>
+    
+    <!-- Notification drawer fragment -->
+    <string name="notification_drawer_settings_title">Notification drawer</string>
 
     <!-- Power Menu fragment -->
     <string name="powermenu_settings_title">PowerMenu</string>
