@@ -43,6 +43,11 @@
         android:title="@string/reaper_buttons">
 
         <PreferenceScreen
+            android:fragment="com.reaper.settings.fragments.NavBarSettings"
+            android:key="reaper_navbar_settings"
+            android:title="@string/navbar_settings_title"/>
+
+        <PreferenceScreen
             android:fragment="com.reaper.settings.fragments.PowerMenuSettings"
             android:key="reaper_powermenu_settings"
             android:title="@string/powermenu_settings_title"/>
@@ -51,6 +56,17 @@
             android:fragment="com.reaper.settings.fragments.VolumeRockerSettings"
             android:key="reaper_volumerocker_settings"
             android:title="@string/volumerocker_settings_title"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="reaper_system"
+        android:title="@string/reaper_system">
+
+        <PreferenceScreen
+            android:fragment="com.reaper.settings.fragments.DisplaySettings"
+            android:key="reaper_display_settings"
+            android:title="@string/display_settings_title"/>
 
     </PreferenceCategory>
 
