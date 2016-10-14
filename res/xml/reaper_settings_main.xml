@@ -26,6 +26,11 @@
             android:key="reaper_lockscreen_settings"
             android:title="@string/lockscreen_settings_title"/>
 
+        <PreferenceScreen
+            android:fragment="com.reaper.settings.fragments.StatusBarSettings"
+            android:key="reaper_statusbar_settings"
+            android:title="@string/statusbar_settings_title"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -39,7 +44,7 @@
 
         <PreferenceScreen
             android:fragment="com.reaper.settings.fragments.VolumeRockerSettings"
-            android:key="pure_volumerocker_settings"
+            android:key="reaper_volumerocker_settings"
             android:title="@string/volumerocker_settings_title"/>
 
     </PreferenceCategory>
