@@ -18,6 +18,17 @@
         android:title="@string/reaper_settings_title" >
 
     <PreferenceCategory
+        android:key="reaper_interface"
+        android:title="@string/reaper_interface">
+
+        <PreferenceScreen
+            android:fragment="com.reaper.settings.fragments.LockScreenSettings"
+            android:key="reaper_lockscreen_settings"
+            android:title="@string/lockscreen_settings_title"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="reaper_buttons"
         android:title="@string/reaper_buttons">
 
