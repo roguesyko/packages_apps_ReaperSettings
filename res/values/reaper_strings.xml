@@ -32,6 +32,11 @@
     
     <!-- Notification drawer fragment -->
     <string name="notification_drawer_settings_title">Notification drawer</string>
+    <string name="notification_panel_title">Notification panel</string>
+    <string name="qs_panel_title">Quick settings panel</string>
+    
+    <!-- Notification & Media fragment -->
+    <string name="notification_media_settings_title">Media &amp; notifications</string>
 
     <!-- Power Menu fragment -->
     <string name="powermenu_settings_title">PowerMenu</string>

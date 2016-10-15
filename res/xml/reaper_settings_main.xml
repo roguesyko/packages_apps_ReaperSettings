@@ -68,6 +68,11 @@
             android:key="reaper_display_settings"
             android:title="@string/display_settings_title"/>
 
+        <PreferenceScreen
+            android:fragment="com.reaper.settings.fragments.NotificationMediaSettings"
+            android:key="reaper_notification_media_settings"
+            android:title="@string/notification_media_settings_title"/>
+
     </PreferenceCategory>
 
 </PreferenceScreen>
