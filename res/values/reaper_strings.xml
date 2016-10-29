@@ -22,6 +22,7 @@
     
     <!-- Display fragment -->
     <string name="display_settings_title">Display</string>
+    <string name="display_category">Display options</string>
 
     <!-- Lockscreen Fragment -->
     <string name="lockscreen_settings_title">Lockscreen</string>
@@ -46,6 +47,8 @@
     
     <!-- Notification & Media fragment -->
     <string name="notification_media_settings_title">Media &amp; notifications</string>
+    <string name="media_cat_title">Media options</string>
+    <string name="notif_cat_title">Notification options</string>
     <!-- Heads up settings -->
     <string name="headsup_settings_title">Peeking notifications</string>
     <string name="summary_heads_up_enabled">Peeking notifications are enabled</string>
