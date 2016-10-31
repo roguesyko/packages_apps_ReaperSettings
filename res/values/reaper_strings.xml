@@ -37,6 +37,12 @@
     
     <!-- Notification & Media fragment -->
     <string name="notification_media_settings_title">Media &amp; notifications</string>
+        <!-- Heads up settings -->
+    <string name="headsup_settings_title">Peeking notifications</string>
+    <string name="summary_heads_up_enabled">Peeking notifications are enabled</string>
+    <string name="summary_heads_up_disabled">Peeking notifications are disabled</string>
+    <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop-up window on your screen, enable Peeking notifications.</string>
+
 
     <!-- Power Menu fragment -->
     <string name="powermenu_settings_title">PowerMenu</string>
