@@ -107,7 +107,13 @@
     <string name="long_press_kill_delay">App kill delay</string>    
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Navbar tuner</string>
-    <string name="navbar_tuner_summary">Customize buttons and layout</string>    
+    <string name="navbar_tuner_summary">Customize buttons and layout</string>
+    
+    <!-- Optional screenshot type -->
+    <string name="screenshot_type_category">Screenshot</string>
+    <string name="screenshot_type_title">Screenshot type</string>
+    <string name="screenshot_type_fullscreen">Take fullscreen screenshots</string>
+    <string name="screenshot_type_partial">Drag selection on the area you want to take as a screenshot</string>        
     
     <!-- Quick settings drawer fragment -->
     <string name="notification_drawer_settings_title">Quick settings drawer</string>
