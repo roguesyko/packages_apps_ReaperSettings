@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 The Pure Nexus Project
-
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-
           http://www.apache.org/licenses/LICENSE-2.0
-
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -16,41 +13,12 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <!-- <PreferenceCategory
-        android:key="media_cat"
-        android:title="@string/media_cat_title" >
-
-        <com.reaper.settings.preferences.SystemSettingSwitchPreference
-            android:key="double_tap_vibrate"
-            android:title="@string/dbl_tap_vib_title"
-            android:summary="@string/dbl_tap_vib_summary"
-            android:defaultValue="true" />
-
-    </PreferenceCategory>	    
-
-    <PreferenceCategory
-        android:key="notif_cat"
-        android:title="@string/notif_cat_title" >
-
-        <PreferenceScreen
-                android:title="@string/power_notification_title"
-                android:summary="@string/power_notification_summary">
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.PowerNotificationControlsActivity" />
-        </PreferenceScreen>
-
-        <PreferenceScreen
-            android:fragment="com.reaper.settings.fragments.HeadsUpSettings"
-            android:key="heads_up_settings"
-            android:title="@string/headsup_settings_title" />
-
-        <com.reaper.settings.preferences.SystemSettingSwitchPreference
-            android:key="battery_low_notification"
-            android:title="@string/battery_low_notif_title"
-            android:summary="@string/battery_low_notif_summary"
-            android:defaultValue="true" />
-
-    </PreferenceCategory>-->
+    <PreferenceScreen
+            android:title="@string/power_notification_title"
+            android:summary="@string/power_notification_summary">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.systemui"
+            android:targetClass="com.android.systemui.tuner.PowerNotificationControlsActivity" />
+    </PreferenceScreen>
 
 </PreferenceScreen>
