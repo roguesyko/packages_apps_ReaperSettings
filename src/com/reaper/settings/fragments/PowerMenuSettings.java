@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pure.settings.fragments;
+package com.reaper.settings.fragments;
 
 import android.content.Context;
 import android.content.Intent;
@@ -32,8 +32,8 @@ import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.android.internal.util.purenexus.PowerMenuConstants;
-import static com.android.internal.util.purenexus.PowerMenuConstants.*;
+import com.android.internal.util.reaper.PowerMenuConstants;
+import static com.android.internal.util.reaper.PowerMenuConstants.*;
 import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
@@ -105,7 +105,7 @@ public class PowerMenuSettings extends SettingsPreferenceFragment {
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.PURE;
+        return MetricsEvent.REAPER;
     }
 
     @Override

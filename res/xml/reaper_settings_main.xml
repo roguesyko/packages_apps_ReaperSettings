@@ -15,15 +15,15 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-        android:title="@string/pure_settings_title" >
+        android:title="@string/reaper_settings_title" >
 
     <PreferenceCategory
-        android:key="pure_buttons"
-        android:title="@string/pure_buttons">
+        android:key="reaper_buttons"
+        android:title="@string/reaper_buttons">
 
         <PreferenceScreen
-            android:fragment="com.pure.settings.fragments.PowerMenuSettings"
-            android:key="pure_powermenu_settings"
+            android:fragment="com.reaper.settings.fragments.PowerMenuSettings"
+            android:key="reaper_powermenu_settings"
             android:title="@string/powermenu_settings_title"/>
 
     </PreferenceCategory>
