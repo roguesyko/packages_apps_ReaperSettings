@@ -16,7 +16,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <PreferenceCategory
+    <!-- <PreferenceCategory
         android:key="media_cat"
         android:title="@string/media_cat_title" >
 
@@ -51,6 +51,6 @@
             android:summary="@string/battery_low_notif_summary"
             android:defaultValue="true" />
 
-    </PreferenceCategory>
+    </PreferenceCategory>-->
 
 </PreferenceScreen>
