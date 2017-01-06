@@ -30,6 +30,11 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.PowerNotificationControlsActivity" />
         </PreferenceScreen>
+        
+        <PreferenceScreen
+            android:fragment="com.reaper.settings.fragments.HeadsUpSettings"
+            android:key="heads_up_settings"
+            android:title="@string/headsup_settings_title" />        
 
     </PreferenceCategory>
 
