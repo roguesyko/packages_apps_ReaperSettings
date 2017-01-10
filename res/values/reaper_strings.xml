@@ -14,12 +14,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Categories -->
-    <string name="reaper_interface">Interface</string>
-    <string name="reaper_buttons">Buttons</string>
-    <string name="reaper_system">System</string>
-    
+   
     <!-- Display fragment -->
     <string name="display_settings_title">Display</string>
     <string name="display_category">Display options</string>
