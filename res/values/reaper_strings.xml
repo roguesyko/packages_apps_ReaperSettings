@@ -23,6 +23,9 @@
     <!-- Display fragment -->
     <string name="display_settings_title">Display</string>
     <string name="display_category">Display options</string>
+    <!-- Wake when connected/disconnected -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn on screen when connecting or disconnecting charger</string>    
     
     <!-- General strings -->
     <string name="cancel">Cancel</string>
@@ -39,25 +42,39 @@
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Navbar tuner</string>
     <string name="navbar_tuner_summary">Customize buttons and layout</string>    
-
     
-    <!-- Notification drawer fragment -->
-    <string name="notification_drawer_settings_title">Notification drawer</string>
-    <string name="notification_panel_title">Notification panel</string>
+    <!-- Quick settings drawer fragment -->
+    <string name="notification_drawer_settings_title">Quick settings drawer</string>
+    <string name="notification_panel_title">Quick settings panel</string>
     <string name="qs_panel_title">Quick settings panel</string>
-    <!-- qs brightness slider -->
+    <!-- QS brightness slider -->
     <string name="qs_brightness_slider_title">Brightness slider</string>
-    <string name="qs_brightness_slider_summary">Show brightness slider on quick settings panel</string>    
+    <string name="qs_brightness_slider_summary">Show brightness slider on quick settings panel</string>
+    <!-- Quick settings -->
+    <string name="status_bar_expanded_qs_settings">Layout</string>
+    <string name="status_bar_expanded_qs_settings_summary">Choose the number of rows and columns</string>
+    <string name="qs_cat_portrait_title">Portrait</string>
+    <string name="qs_cat_landscape_title">Landscape</string>
+    <string name="qs_rows_title">Rows</string>
+    <string name="qs_columns_title">Columns</string>
+    <string name="qs_rows_columns_1_title">1</string>
+    <string name="qs_rows_columns_2_title">2</string>
+    <string name="qs_rows_columns_3_title">3</string>
+    <string name="qs_rows_columns_4_title">4</string>
+    <string name="qs_rows_columns_5_title">5</string>
+    <string name="qs_rows_columns_6_title">6</string>
+    <string name="qs_rows_columns_7_title">7</string>
+    <string name="qs_rows_columns_8_title">8</string>        
     
     <!-- Notification & Media fragment -->
     <string name="notification_media_settings_title">Media &amp; notifications</string>
     <string name="media_cat_title">Media options</string>
     <string name="notif_cat_title">Notification options</string>
     <!-- Heads up settings -->
-    <string name="headsup_settings_title">Peeking notifications</string>
-    <string name="summary_heads_up_enabled">Peeking notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Peeking notifications are disabled</string>
-    <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop-up window on your screen, enable Peeking notifications.</string>
+    <string name="headsup_settings_title">Headsup</string>
+    <string name="summary_heads_up_enabled">Headsup is enabled</string>
+    <string name="summary_heads_up_disabled">Headsup is disabled</string>
+    <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop-up window on your screen, enable Headsup notifications.</string>
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Time out</string>
     <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
@@ -100,6 +117,9 @@
     <string name="power_menu_bug_report_title">Bug report</string>
     <string name="power_menu_sound_title">Sound panel</string>
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
+
+    <!-- StatusBar fragment -->
+    <string name="statusbar_settings_title">Statusbar</string>
      <!-- Clock settings -->
     <string name="clock_settings_title">Clock settings</string>
     <string name="clock_settings_summary">Custom clock and date options</string>
@@ -125,9 +145,7 @@
     <string name="clock_am_pm_date_none">Hidden</string>
     <string name="clock_date_style_lowercase">Lowercase</string>
     <string name="clock_date_style_uppercase">Uppercase</string>
-    <string name="clock_date_format_custom">Custom java format</string>
-    <!-- StatusBar fragment -->
-    <string name="statusbar_settings_title">Statusbar</string>
+    <string name="clock_date_format_custom">Custom java format</string>    
     <!-- double tap statusbar to sleep -->
      <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
      <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
@@ -154,27 +172,8 @@
     <string name="volbtn_up_zen_summary">allow volume up to exit do not disturb mode</string>
     <!-- Volume do not disturb switch -->
     <string name="vol_zen_title">Do not disturb switch</string>
-    <string name="vol_zen_summary">Show do not disturb switch on volume panel</string>
-    
-    <!-- QS settings -->
-    <string name="status_bar_expanded_qs_settings">Layout</string>
-    <string name="status_bar_expanded_qs_settings_summary">Choose the number of rows and columns</string>
-    <string name="qs_cat_portrait_title">Portrait</string>
-    <string name="qs_cat_landscape_title">Landscape</string>
-    <string name="qs_rows_title">Rows</string>
-    <string name="qs_columns_title">Columns</string>
-    <string name="qs_rows_columns_1_title">1</string>
-    <string name="qs_rows_columns_2_title">2</string>
-    <string name="qs_rows_columns_3_title">3</string>
-    <string name="qs_rows_columns_4_title">4</string>
-    <string name="qs_rows_columns_5_title">5</string>
-    <string name="qs_rows_columns_6_title">6</string>
-    <string name="qs_rows_columns_7_title">7</string>
-    <string name="qs_rows_columns_8_title">8</string>
-        <!-- Wake when connected/disconnected -->
-    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Turn on screen when connecting or disconnecting charger</string>
-        <!-- Volume key cursor control -->
+    <string name="vol_zen_summary">Show do not disturb switch on volume panel</string>   
+    <!-- Volume key cursor control -->
     <string name="volbtn_cursor_control_title">Volume key cursor control</string>
     <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
