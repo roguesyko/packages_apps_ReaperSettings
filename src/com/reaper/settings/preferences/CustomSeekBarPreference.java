@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package com.pure.settings.preferences;
+package com.reaper.settings.preferences;
 
 import android.content.Context;
 import android.content.res.TypedArray;
