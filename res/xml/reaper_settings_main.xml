@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2017 ReaperOS
+<!-- Copyright (C) 2016 The Pure Nexus Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -23,14 +23,9 @@
             android:title="@string/display_settings_title"/>
             
         <PreferenceScreen
-            android:fragment="com.reaper.settings.fragments.GestureSettings"
-            android:key="reaper_gesture_settings"
-            android:title="@string/gesture_settings_title"/>            
-            
-        <PreferenceScreen
             android:fragment="com.reaper.settings.fragments.LockScreenSettings"
             android:key="reaper_lockscreen_settings"
-            android:title="@string/lockscreen_settings_title"/>           
+            android:title="@string/lockscreen_settings_title"/>
 
         <PreferenceScreen
             android:fragment="com.reaper.settings.fragments.NotificationMediaSettings"

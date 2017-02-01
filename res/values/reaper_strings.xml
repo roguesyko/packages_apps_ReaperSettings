@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Battery settings -->
+        <!-- Battery settings -->
     <string name="battery_settings_title">Battery settings</string>
     <string name="battery_settings_summary">Change battery icon, percentage</string>
     <!-- Battery icon options -->
@@ -51,9 +51,6 @@
     <!-- General strings -->
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
-    
-    <!-- Gesture fragment -->
-    <string name="gesture_settings_title">Gestures</string>
 
     <!-- Lockscreen Fragment -->
     <string name="lockscreen_settings_title">Lockscreen</string>
