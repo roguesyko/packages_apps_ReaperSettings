@@ -53,12 +53,11 @@
         android:entries="@array/volbtn_cursor_control_entries"
         android:entryValues="@array/volbtn_cursor_control_values"
         android:persistent="false" />
-        
-    <ListPreference
-            android:key="screenshot_type"
-            android:title="@string/screenshot_type_category"
-            android:entries="@array/screenshot_type_entries"
-            android:entryValues="@array/screenshot_type_values"
-            android:layout="@layout/preference_screenshot" />            
+
+    <PreferenceScreen
+        android:key="screenshot_type"
+        android:title="@string/screenshot_type_category"
+        android:fragment="com.reaper.settings.fragments.Screenshot"
+        android:layout="@layout/preference_screenshot"/>          
 
 </PreferenceScreen>
