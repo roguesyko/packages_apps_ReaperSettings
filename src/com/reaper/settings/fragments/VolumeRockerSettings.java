@@ -31,9 +31,10 @@ import com.android.settings.SettingsPreferenceFragment;
 
 public class VolumeRockerSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
-
+    private static final String SCREENSHOT_TYPE = "screenshot_type";
     private static final String KEY_VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
 
+    private ListPreference mScreenshotType;
     private ListPreference mVolumeKeyCursorControl;
 
     @Override
@@ -47,6 +48,12 @@ public class VolumeRockerSettings extends SettingsPreferenceFragment implements
                 Settings.System.VOLUME_KEY_CURSOR_CONTROL, 0);
         mVolumeKeyCursorControl = initActionList(KEY_VOLUME_KEY_CURSOR_CONTROL,
                 cursorControlAction);
+        mScreenshotType = (ListPreference) findPreference(SCREENSHOT_TYPE);
+        int mScreenshotTypeValue = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.SCREENSHOT_TYPE, 0);
+        mScreenshotType.setValue(String.valueOf(mScreenshotTypeValue));
+        mScreenshotType.setSummary(mScreenshotType.getEntry());
+        mScreenshotType.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -75,8 +82,15 @@ public class VolumeRockerSettings extends SettingsPreferenceFragment implements
             handleActionListChange(mVolumeKeyCursorControl, newValue,
                     Settings.System.VOLUME_KEY_CURSOR_CONTROL);
             return true;
+        } else if  (preference == mScreenshotType) {
+            int mScreenshotTypeValue = Integer.parseInt(((String) newValue).toString());
+            mScreenshotType.setSummary(
+                    mScreenshotType.getEntries()[mScreenshotTypeValue]);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.SCREENSHOT_TYPE, mScreenshotTypeValue);
+            mScreenshotType.setValue(String.valueOf(mScreenshotTypeValue));
+            return true;
         }
         return false;
     }
 }
-
